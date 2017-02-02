@@ -44,25 +44,25 @@ for i in range(0,len(x)):
             continue;
     
     if x[i] == "  type: CONVOLUTION\n" or x[i] == "type: CONVOLUTION\n":
-        x[i] = '  type: "Convolution"';
+        x[i] = '  type: "Convolution"\n';
         continue;
     if x[i] == "  type: RELU\n" or x[i] == "type: RELU\n":
-        x[i] = '  type: "ReLU"';
+        x[i] = '  type: "ReLU"\n';
         continue;
     if x[i] == "  type: LRN\n" or x[i] == "type: LRN\n":
-        x[i] = '  type: "LRN"';
+        x[i] = '  type: "LRN"\n';
         continue;
     if x[i] == "  type: POOLING\n" or x[i] == "type: POOLING\n":
-        x[i] = '  type: "Pooling"';
+        x[i] = '  type: "Pooling"\n';
         continue;
     if x[i] == "  type: INNER_PRODUCT\n" or x[i] == "type: INNER_PRODUCT\n":
-        x[i] = '  type: "InnerProduct"';
+        x[i] = '  type: "InnerProduct"\n';
         continue;
     if x[i] == "  type: SOFTMAX\n" or x[i] == "type: SOFTMAX\n":
-        x[i] = '  type: "Softmax"';
+        x[i] = '  type: "Softmax"\n';
         continue;
     if x[i] == "  type: DROPOUT\n" or x[i] == "type: DROPOUT\n":
-        x[i] = '  type: "Dropout"';
+        x[i] = '  type: "Dropout"\n';
         continue;
     
         
