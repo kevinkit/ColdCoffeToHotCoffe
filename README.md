@@ -11,8 +11,14 @@ The following layers are supported at the moment, more will follow. Feel free to
   layers         ...  layer
 
   CONVOLUTION    ... "Convolution"
+  
   RELU           ... "Relu"
+  
   LRN            ... "LRN"
+  
   POOLING        ... "Pooling"
+  
   INNER_PRODUCT  ... "InnerProduct"
+  
   SOFTMAX        ... "Softmax"
+  
