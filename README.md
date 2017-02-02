@@ -22,3 +22,4 @@ The following layers are supported at the moment, more will follow. Feel free to
   
   SOFTMAX        ... "Softmax"
   
+An overview of all layers can be found at: http://caffe.berkeleyvision.org/tutorial/layers.html 
