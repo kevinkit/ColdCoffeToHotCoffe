@@ -25,3 +25,7 @@ The following layers are supported at the moment, more will follow. Feel free to
   DROPOUT        ... "Dropout"
   
 An overview of all layers can be found at: http://caffe.berkeleyvision.org/tutorial/layers.html 
+
+#Howto
+
+Define the Variable "filename" in the converter.py script to tell which file should be converter. The output will be "new" + filename . 
